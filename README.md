@@ -37,3 +37,18 @@ Za korištenje aplikacije je potrebno stolno ili prijenosno računalo, zajedno s
 |  Microsoft Project 2016           |
 |  Visual Paradigm Comunity Edition |
 |  GitHub                           |
+
+
+### Projektni plan
+
+U projektnom planu ćemo prikazati detaljno opisane aktivnosti svakog člana tima, zajedno sa njihovim vremenima izrade i proračunom.
+Za izradu aplikativnog rješenja smo odabrali vodopadni model, koji nam se činio prigodnim uzevši u obzir faze i korake za izradu, koji su slijedni, što znači da razvoj napreduje fazu po fazu. To znači da svaka faza prethodi drugoj, odnosno da je nemoguće započeti rad
+na novoj fazi, dok prethodna faza još nije zaključena. 
+
+Naš plan sadrži 5 faza, koje idu redom: 
+1) Definiranje plana projekta (korisnički zahtjevi, izrada plana i proračuna)
+2) Modeliranje i izrada dijagrama (5 različitih vrsta dijagrama)
+3) Izrada aplikacije u .NET-u
+4) Testiranje i pisanje korisničke dokumentacije
+5) Isporuka i primjena
+Na slici ispod ima prikazan model sa svih 5 faza našeg projekta.
