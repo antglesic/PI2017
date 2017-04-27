@@ -66,10 +66,10 @@ Projektni tim se sastoji od tri člana. Svaki član svoj dio mora definirati i i
 3. Antonio Glešić - Kreiranje i slanje zahtjevnice za izdavanje potrebne količine sirovina u proizvodnju, vođenje evidencije o stanju skladišta u obliku izvještaja, modul za komunikaciju odnosno razmjenu poruka između korisnika
  aplikacije
 
-|  Raspored poslova po članovima tima   |
-|---------------|-----------------------| 
+#### Raspored poslova po članu tima
+
 | Član          |          Opis posla   |
 |---------------|:---------------------:| 
-| col 3 is      | right-aligned         | 
+| Silvio Đurić  | Izrada era modela, dorada dokumentacije, izrada dijagrama klasa, izrada dijagrama aktivnosti | 
 | col 2 is      | centered              |   
 | zebra stripes | are neat              |   
