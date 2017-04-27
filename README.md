@@ -54,3 +54,14 @@ Naš plan sadrži 5 faza, koje idu redom:
 
 Na slici ispod ima prikazan model sa svih 5 faza našeg projekta.
 ![Vodopadni](http://i63.tinypic.com/33f9qc9.png)
+
+### Projektni tim
+
+Projektni tim se sastoji od tri člana. Svaki član svoj dio mora definirati i implementirati.
+
+1. Silvio Đurić - Prijava u aplikaciju, modul obavještavanja o kritičnim količinama sirovina na skladištu, tjedna inventura sirovina na skladištu prema roku trajanja sirovina i otpis sirovina sa isteklim rokom
+
+2. Mateo Kiđemet -  Dodavanje novih korisnika u aplikaciju i dodjeljivanje ovlasti, zaprimanje novih sirovina od dobavljača i kreiranje skl.primke na osnovu, izdavanje sirovina u proizvodnju i na temelju toga kreiranje izdatnice dobavljačeva računa/otpremnice
+
+3. Antonio Glešić - Kreiranje i slanje zahtjevnice za izdavanje potrebne količine sirovina u proizvodnju, vođenje evidencije o stanju skladišta u obliku izvještaja, modul za komunikaciju odnosno razmjenu poruka između korisnika
+ aplikacije
