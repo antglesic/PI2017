@@ -16,5 +16,10 @@ namespace PI_Projekt_SiM
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Uspješno pokrenuta aplikacija S&M");
+        }
     }
 }
