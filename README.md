@@ -27,19 +27,12 @@ Vlasnici pekara, kao i njihovi zaposlenici, mogu vodit evidenciju o stanju sirov
 
 Za korištenje aplikacije je potrebno stolno ili prijenosno računalo, zajedno sa stabilnom internetskom vezom (nevažno bila ona žičana ili bežična). Svi podaci sustava se održavaju u bazi podataka, koja je locirana na udaljenom web-poslužitelju.
 
-### Korištene tehnologije
 
-| ------------------------------- |
+|     Korištene tehnologije       |
+|:-------------------------------:|
 |  Microsoft Visual Studio 2015   |
 | Microsoft Office                |
 |MS SQL Server                    |
 |Microsoft Project 2016           |
 |Visual Paradigm Comunity Edition |
 |GitHub                           |
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
