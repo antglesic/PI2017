@@ -51,4 +51,5 @@ Naš plan sadrži 5 faza, koje idu redom:
 3) Izrada aplikacije u .NET-u
 4) Testiranje i pisanje korisničke dokumentacije
 5) Isporuka i primjena
+
 Na slici ispod ima prikazan model sa svih 5 faza našeg projekta.
