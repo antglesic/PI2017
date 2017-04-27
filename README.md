@@ -70,6 +70,6 @@ Projektni tim se sastoji od tri člana. Svaki član svoj dio mora definirati i i
 
 | Član          |          Opis posla   |
 |---------------|:---------------------:| 
-| Silvio Đurić  | Izrada era modela, dorada dokumentacije, izrada dijagrama aktivnosti, izrada dijagrama slijeda, implemetnacija baze podataka / grafičkog sučelja, ostalih klasa  | 
+| Silvio Đurić  | Izrada era modela, dorada dokumentacije, izrada dijagrama aktivnosti, izrada dijagrama slijeda, implemetnacija baze podataka / grafičkog sučelja, ostalih klasa, testiranje aplikacije  | 
 | Mateo Kiđemet    |  Izrada dijagrama aktivnosti, izrada dijagrama slijeda, implemetnacija baze podataka / grafičkog sučelja, dorada dokumentacije, izrada korisničke dokumentacije    |   
-| zebra stripes | are neat              |   
+| Antonio Glešić | Izrada projektnog plana i proračuna, izrada dijagrama klasa, izrada dijagrama slijeda, implemetnacija baze podataka / grafičkog sučelja, testiranje aplikacije  |   
