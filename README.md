@@ -65,3 +65,9 @@ Projektni tim se sastoji od tri člana. Svaki član svoj dio mora definirati i i
 
 3. Antonio Glešić - Kreiranje i slanje zahtjevnice za izdavanje potrebne količine sirovina u proizvodnju, vođenje evidencije o stanju skladišta u obliku izvještaja, modul za komunikaciju odnosno razmjenu poruka između korisnika
  aplikacije
+
+|   Raspored poslova po članovima tima  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
