@@ -69,7 +69,7 @@ Projektni tim se sastoji od tri člana. Svaki član svoj dio mora definirati i i
 |   Raspored poslova po članovima tima  |
 | :------------------------------------:| 
 | Član          |          Opis posla   |
-| :------------------------------------:| 
+| :------------:|:---------------------:| 
 | col 3 is      | right-aligned         | 
 | col 2 is      | centered              |   
 | zebra stripes | are neat              |   
