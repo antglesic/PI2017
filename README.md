@@ -53,3 +53,4 @@ Naš plan sadrži 5 faza, koje idu redom:
 5) Isporuka i primjena
 
 Na slici ispod ima prikazan model sa svih 5 faza našeg projekta.
+![Vodopadni](http://i63.tinypic.com/33f9qc9.png)
