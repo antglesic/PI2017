@@ -6,5 +6,7 @@ Dobro došli u korisničku dokumentaciju Store and Manage aplikacije. Svrha ove 
 
 #### Stranica prijave
 
+Svi korisnici koji su registrirani u našoj bazi podataka imaju pravo pristupiti korištenju aplikacije. Kako bi to učinili potrebno je obaviti kratku i jednostavnu prijavu. Forma za prijavu sadrži korisničko ime te lozinku. Svaki registrirani korisnik je svoje ime i lozinku dobio na svoj službeni mail tvrtke. U slučaju gubitka lozinke ili zaborava korisničkog imena potrebno je poslati email korisničkoj podršci naše aplikacije kako bismo vam što prije omogućili ponovni pristup.
+
 ![Prijava](http://oi66.tinypic.com/b6ddlk.jpg)
 
