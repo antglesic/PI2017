@@ -22,3 +22,8 @@ Vlasnik ima pristup svim mogućnostima koje aplikacija sadrži. Mogućnost kreir
 
 ![Vlasnik narudžbenica](http://oi68.tinypic.com/2lyixz.jpg)
 
+#### Vlasnik: Popis narudžbenica
+
+Slanje/otkazivanje narudžbenica se vrši kroz popis narudžbenica, u popisu se nalaze sve narudžbenica koje je vlasnik već prije kreirao. U ovoj formi vlasnik ima tri mogućnosti kada odabere jednu od kreiranih narudžbenica, prva mogućnost je pregled detalja narudžbenice kako bi se uvjerio da je sve uredu, druga mogućnost je konačni korak a to je slanje narudžbenice dobavljaču koji je naznačen na samome dokumentu te na kraju imamo mogućnost otkazivanja narudžbenice koja se može iskoristiti u roku od 3 sata nakon slanja narudžbenice (sva otkazivanja izvan roka je potrebno izvršiti direktnim slanjem emaila dobavljaču kojemu je poslana narudžbenica).
+
+![Vlasnik popis narudžbenica](http://oi64.tinypic.com/312wi2p.jpg)
