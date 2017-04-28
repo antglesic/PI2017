@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Form1 : Form
+    public partial class Prijava : Form
     {
-        public Form1()
+        public Prijava()
         {
             InitializeComponent();
         }
