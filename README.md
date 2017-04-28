@@ -6,5 +6,5 @@ Dobro došli u korisničku dokumentaciju Store and Manage aplikacije. Svrha ove 
 
 #### Stranica prijave
 
-[!Prijava](http://oi66.tinypic.com/b6ddlk.jpg)
+![Prijava](http://oi66.tinypic.com/b6ddlk.jpg)
 
