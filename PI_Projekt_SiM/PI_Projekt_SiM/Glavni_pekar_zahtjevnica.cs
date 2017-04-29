@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Form1 : Form
+    public partial class Glavni_pekar_zahtjevnica : Form
     {
-        public Form1()
+        public Glavni_pekar_zahtjevnica()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void posaljiPopisBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Uspješno pokrenuta aplikacija S&M");
+
         }
     }
 }
