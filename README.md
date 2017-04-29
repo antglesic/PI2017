@@ -55,3 +55,14 @@ Na slici ispod možemo vidjeti prikaz ove forme kako smo je zamislili prema ovim
 ![Korisnik_Skladište](http://i66.tinypic.com/i6dzys.png)
 
 
+
+#### Korisnik: Poruke
+
+Slično kao i funkcionalnost pregledavanja stanja skladišta, svaki korisnik ima i mogućnost razmjene poruka sa drugim korisnicima
+aplikacije. Kod ove funkcionalnosti, korisnik ima popis svih zaprimljenih poruka u listboxu te odabirom na određenu poruku, u 
+okviru za čitanje poruka mu se ispisuje tekst te poruke. Ispod te funkcionalnosti za čitanje primljenih poruka, nalazi se funkcionalnost
+za pisanje i slanje poruka. U padajućem izborniku se nalazi popis svih korisnika aplikacije te odabirom na određenog, njemu se šalje
+poruka. Uz to, korisnik još unosi Naslov poruke i ispod toga u Tijelo poruke unosi cijelu poruku te pritiskom na dugme se poruka
+šalje odabranom korisniku. Ova funkcionalnost je prikazana na slici ispod, u obliku kakvog smo mi zamislili.
+
+![Korisnik_Poruke](http://i64.tinypic.com/kloqg.png)
