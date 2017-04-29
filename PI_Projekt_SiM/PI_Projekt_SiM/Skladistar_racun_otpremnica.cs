@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class frmVlasnik_dodavanje_korisnika : Form
+    public partial class Skladistar_racun_otpremnica : Form
     {
-        public frmVlasnik_dodavanje_korisnika()
+        public Skladistar_racun_otpremnica()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
