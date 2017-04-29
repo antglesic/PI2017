@@ -1,6 +1,6 @@
 ﻿namespace PI_Projekt_SiM
 {
-    partial class Vlasnik_popis_narudzbenica
+    partial class frmVlasnik_popis_narudzbenica
     {
         /// <summary>
         /// Required designer variable.

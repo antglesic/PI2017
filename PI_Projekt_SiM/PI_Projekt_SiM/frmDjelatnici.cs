@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Glavni_pekar_zahtjevnica : Form
+    public partial class frmDjelatnici : Form
     {
-        public Glavni_pekar_zahtjevnica()
+        public frmDjelatnici()
         {
             InitializeComponent();
-        }
-
-        private void posaljiPopisBtn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

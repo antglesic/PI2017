@@ -1,6 +1,6 @@
 ﻿namespace PI_Projekt_SiM
 {
-    partial class Glavni_pekar_zahtjevnica
+    partial class frmGlavni_pekar_zahtjevnica
     {
         /// <summary>
         /// Required designer variable.

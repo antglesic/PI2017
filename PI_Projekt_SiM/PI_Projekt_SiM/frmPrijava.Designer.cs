@@ -1,6 +1,6 @@
 ﻿namespace PI_Projekt_SiM
 {
-    partial class Prijava
+    partial class frmPrijava
     {
         /// <summary>
         /// Required designer variable.

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Vlasnik_popis_narudzbenica : Form
+    public partial class frmVlasnik_narudzbenica : Form
     {
-        public Vlasnik_popis_narudzbenica()
+        public frmVlasnik_narudzbenica()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

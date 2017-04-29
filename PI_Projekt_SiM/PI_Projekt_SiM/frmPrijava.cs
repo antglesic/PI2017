@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Vlasnik_narudzbenica : Form
+    public partial class frmPrijava : Form
     {
-        public Vlasnik_narudzbenica()
+        public frmPrijava()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Uspješno pokrenuta aplikacija S&M");
         }
     }
 }
