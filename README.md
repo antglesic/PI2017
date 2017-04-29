@@ -27,3 +27,42 @@ Vlasnik ima pristup svim mogućnostima koje aplikacija sadrži. Mogućnost kreir
 Slanje/otkazivanje narudžbenica se vrši kroz popis narudžbenica, u popisu se nalaze sve narudžbenica koje je vlasnik već prije kreirao. U ovoj formi vlasnik ima tri mogućnosti kada odabere jednu od kreiranih narudžbenica, prva mogućnost je pregled detalja narudžbenice kako bi se uvjerio da je sve uredu, druga mogućnost je konačni korak a to je slanje narudžbenice dobavljaču koji je naznačen na samome dokumentu te na kraju imamo mogućnost otkazivanja narudžbenice koja se može iskoristiti u roku od 3 sata nakon slanja narudžbenice (sva otkazivanja izvan roka je potrebno izvršiti direktnim slanjem emaila dobavljaču kojemu je poslana narudžbenica).
 
 ![Vlasnik popis narudžbenica](http://oi64.tinypic.com/312wi2p.jpg)
+
+
+#### Vlasnik: Djelatnici
+
+Vlasnik ima najveće ovlasti te slično kao administrator, može dodavati nove djelatnike, odnosno korisnike u aplikaciju.
+Svakom korisniku unosi vrijednosti pod atribute kao što su ime, prezime, kontakt, korisničko ime i lozinka, a na kraju 
+mora još i definirati ovlasti, odnosno tip korisnika za novog djelatnika. Uz dodavanje novog korisnika, na ovoj formi
+se nalazi i popis trenutnih korisnika te ih može odabrati i mijenjati ovlasti koje su im dodijeljene, bilo greškom krive
+ovlasti dodijeljene ili je korisnik promoviran i slično. Na slici ispod imamo prikaz kako izgleda forma koju vlasnik
+koristi za iznad navedene funkcionalnosti.
+
+
+![Vlasnik_Djelatnici](http://i67.tinypic.com/29wajkn.png)
+
+
+
+#### Korisnik: Stanje skladišta
+
+Svaki korisnik naše aplikacije ima mogućnost za pregledavanje stanja sirovina na skladištu, a istovremeno i ažuriranje
+podataka istih. Funkcionalnost ove forme smo zamislili kao padajući izbornik sa popisom sirovina te kako korisnik odabere
+željenu sirovinu, na listi će se prikazati svi atributi vezani za tu sirovinu i njihove vrijednosti u tom trenutku. To bi
+služilo za pregledavanje stanja na skladištu, a kako je lista atributa prikazana u listboxu, može se odabrati određeni atribut
+te nam to omogućava ažuriranje, odnosno izmjenu podataka, što bi olakšalo evidenciju novih stanja sirovina na skladištu.
+Na slici ispod možemo vidjeti prikaz ove forme kako smo je zamislili prema ovim funkcionalnostima koje nudi.
+
+![Korisnik_Skladište](http://i66.tinypic.com/i6dzys.png)
+
+
+
+#### Korisnik: Poruke
+
+Slično kao i funkcionalnost pregledavanja stanja skladišta, svaki korisnik ima i mogućnost razmjene poruka sa drugim korisnicima
+aplikacije. Kod ove funkcionalnosti, korisnik ima popis svih zaprimljenih poruka u listboxu te odabirom na određenu poruku, u 
+okviru za čitanje poruka mu se ispisuje tekst te poruke. Ispod te funkcionalnosti za čitanje primljenih poruka, nalazi se funkcionalnost
+za pisanje i slanje poruka. U padajućem izborniku se nalazi popis svih korisnika aplikacije te odabirom na određenog, njemu se šalje
+poruka. Uz to, korisnik još unosi Naslov poruke i ispod toga u Tijelo poruke unosi cijelu poruku te pritiskom na dugme se poruka
+šalje odabranom korisniku. Ova funkcionalnost je prikazana na slici ispod, u obliku kakvog smo mi zamislili.
+
+![Korisnik_Poruke](http://i64.tinypic.com/kloqg.png)
