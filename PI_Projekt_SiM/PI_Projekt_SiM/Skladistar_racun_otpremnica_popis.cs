@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Skladistar_racun_otpremnica : Form
+    public partial class Skladistar_racun_otpremnica_popis : Form
     {
-        public Skladistar_racun_otpremnica()
+        public Skladistar_racun_otpremnica_popis()
         {
             InitializeComponent();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
