@@ -29,7 +29,7 @@ Slanje/otkazivanje narudžbenica se vrši kroz popis narudžbenica, u popisu se 
 ![Vlasnik popis narudžbenica](http://oi64.tinypic.com/312wi2p.jpg)
 
 
-### Vlasnik: Djelatnici
+#### Vlasnik: Djelatnici
 
 Vlasnik ima najveće ovlasti te slično kao administrator, može dodavati nove djelatnike, odnosno korisnike u aplikaciju.
 Svakom korisniku unosi vrijednosti pod atribute kao što su ime, prezime, kontakt, korisničko ime i lozinka, a na kraju 
@@ -40,3 +40,18 @@ koristi za iznad navedene funkcionalnosti.
 
 
 ![Vlasnik_Djelatnici](http://i67.tinypic.com/29wajkn.png)
+
+
+
+#### Korisnik: Stanje skladišta
+
+Svaki korisnik naše aplikacije ima mogućnost za pregledavanje stanja sirovina na skladištu, a istovremeno i ažuriranje
+podataka istih. Funkcionalnost ove forme smo zamislili kao padajući izbornik sa popisom sirovina te kako korisnik odabere
+željenu sirovinu, na listi će se prikazati svi atributi vezani za tu sirovinu i njihove vrijednosti u tom trenutku. To bi
+služilo za pregledavanje stanja na skladištu, a kako je lista atributa prikazana u listboxu, može se odabrati određeni atribut
+te nam to omogućava ažuriranje, odnosno izmjenu podataka, što bi olakšalo evidenciju novih stanja sirovina na skladištu.
+Na slici ispod možemo vidjeti prikaz ove forme kako smo je zamislili prema ovim funkcionalnostima koje nudi.
+
+![Korisnik_Skladište](http://i66.tinypic.com/i6dzys.png)
+
+
