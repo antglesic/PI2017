@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Vlasnik_djelatnici_popis : Form
+    public partial class Vlasnik_djelatnici_detaljno : Form
     {
-        public Vlasnik_djelatnici_popis()
+        public Vlasnik_djelatnici_detaljno()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
