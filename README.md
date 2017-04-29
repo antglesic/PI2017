@@ -27,3 +27,16 @@ Vlasnik ima pristup svim mogućnostima koje aplikacija sadrži. Mogućnost kreir
 Slanje/otkazivanje narudžbenica se vrši kroz popis narudžbenica, u popisu se nalaze sve narudžbenica koje je vlasnik već prije kreirao. U ovoj formi vlasnik ima tri mogućnosti kada odabere jednu od kreiranih narudžbenica, prva mogućnost je pregled detalja narudžbenice kako bi se uvjerio da je sve uredu, druga mogućnost je konačni korak a to je slanje narudžbenice dobavljaču koji je naznačen na samome dokumentu te na kraju imamo mogućnost otkazivanja narudžbenice koja se može iskoristiti u roku od 3 sata nakon slanja narudžbenice (sva otkazivanja izvan roka je potrebno izvršiti direktnim slanjem emaila dobavljaču kojemu je poslana narudžbenica).
 
 ![Vlasnik popis narudžbenica](http://oi64.tinypic.com/312wi2p.jpg)
+
+
+### Vlasnik: Djelatnici
+
+Vlasnik ima najveće ovlasti te slično kao administrator, može dodavati nove djelatnike, odnosno korisnike u aplikaciju.
+Svakom korisniku unosi vrijednosti pod atribute kao što su ime, prezime, kontakt, korisničko ime i lozinka, a na kraju 
+mora još i definirati ovlasti, odnosno tip korisnika za novog djelatnika. Uz dodavanje novog korisnika, na ovoj formi
+se nalazi i popis trenutnih korisnika te ih može odabrati i mijenjati ovlasti koje su im dodijeljene, bilo greškom krive
+ovlasti dodijeljene ili je korisnik promoviran i slično. Na slici ispod imamo prikaz kako izgleda forma koju vlasnik
+koristi za iznad navedene funkcionalnosti.
+
+
+![Vlasnik_Djelatnici](http://i67.tinypic.com/29wajkn.png)
