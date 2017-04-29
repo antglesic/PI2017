@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Skladistar_racun_otpremnica_popis : Form
+    public partial class Vlasnik_djelatnici_popis : Form
     {
-        public Skladistar_racun_otpremnica_popis()
+        public Vlasnik_djelatnici_popis()
         {
             InitializeComponent();
-        }
-
-        private void đ_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-
         }
     }
 }
