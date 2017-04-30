@@ -1,6 +1,6 @@
 ﻿namespace PI_Projekt_SiM
 {
-    partial class Skladistar_racun_otpremnica
+    partial class frmSkladistar_racun_otpremnica
     {
         /// <summary>
         /// Required designer variable.
@@ -33,12 +33,15 @@
             this.zahtjevniceBtn = new System.Windows.Forms.Button();
             this.primkeBtn = new System.Windows.Forms.Button();
             this.porukeBtn = new System.Windows.Forms.Button();
-            this.kreirajBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // skladisteBtn
@@ -86,21 +89,12 @@
             this.porukeBtn.Text = "Poruke";
             this.porukeBtn.UseVisualStyleBackColor = true;
             // 
-            // kreirajBtn
-            // 
-            this.kreirajBtn.Location = new System.Drawing.Point(297, 503);
-            this.kreirajBtn.Name = "kreirajBtn";
-            this.kreirajBtn.Size = new System.Drawing.Size(151, 23);
-            this.kreirajBtn.TabIndex = 14;
-            this.kreirajBtn.Text = "Kreiraj";
-            this.kreirajBtn.UseVisualStyleBackColor = true;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.kreirajBtn);
+            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(220, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(707, 545);
@@ -108,31 +102,59 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Racun/otpremnica";
             // 
-            // button1
+            // listBox1
             // 
-            this.button1.Location = new System.Drawing.Point(364, 223);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Kreiraj primku";
-            this.button1.UseVisualStyleBackColor = true;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(52, 109);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(604, 316);
+            this.listBox1.TabIndex = 17;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(520, 223);
+            this.button2.Location = new System.Drawing.Point(348, 456);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 23);
+            this.button2.Size = new System.Drawing.Size(140, 23);
             this.button2.TabIndex = 16;
             this.button2.Text = "Greška?";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // button1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(51, 50);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(604, 160);
-            this.listBox1.TabIndex = 17;
+            this.button1.Location = new System.Drawing.Point(190, 456);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Kreiraj primku";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Racun/otpremnica";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(38, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Ime dobavljaca";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Location = new System.Drawing.Point(270, 35);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(149, 68);
+            this.groupBox2.TabIndex = 20;
+            this.groupBox2.TabStop = false;
             // 
             // Skladistar_racun_otpremnica
             // 
@@ -148,6 +170,8 @@
             this.Name = "Skladistar_racun_otpremnica";
             this.Text = "Skladistar_racun_otpremnica";
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -158,10 +182,12 @@
         private System.Windows.Forms.Button zahtjevniceBtn;
         private System.Windows.Forms.Button primkeBtn;
         private System.Windows.Forms.Button porukeBtn;
-        private System.Windows.Forms.Button kreirajBtn;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Skladistar_racun_otpremnica : Form
+    public partial class frmSkladistar_racun_otpremnica : Form
     {
-        public Skladistar_racun_otpremnica()
+        public frmSkladistar_racun_otpremnica()
         {
             InitializeComponent();
         }

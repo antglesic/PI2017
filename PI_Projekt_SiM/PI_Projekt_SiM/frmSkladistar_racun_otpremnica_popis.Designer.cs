@@ -1,6 +1,6 @@
 ﻿namespace PI_Projekt_SiM
 {
-    partial class Skladistar_racun_otpremnica_popis
+    partial class frmSkladistar_racun_otpremnica_popis
     {
         /// <summary>
         /// Required designer variable.
