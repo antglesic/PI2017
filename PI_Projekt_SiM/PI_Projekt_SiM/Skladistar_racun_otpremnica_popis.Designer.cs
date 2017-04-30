@@ -34,10 +34,10 @@
             this.primkeBtn = new System.Windows.Forms.Button();
             this.porukeBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.kreirajBtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.popisRacunaOtpremnica = new System.Windows.Forms.ListBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.đ = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.kreirajPrimkuBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,50 +88,50 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.đ);
+            this.groupBox1.Controls.Add(this.popisRacunaOtpremnica);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.kreirajBtn);
+            this.groupBox1.Controls.Add(this.kreirajPrimkuBtn);
             this.groupBox1.Location = new System.Drawing.Point(214, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(707, 545);
+            this.groupBox1.Size = new System.Drawing.Size(724, 545);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             // 
-            // kreirajBtn
+            // popisRacunaOtpremnica
             // 
-            this.kreirajBtn.Location = new System.Drawing.Point(297, 503);
-            this.kreirajBtn.Name = "kreirajBtn";
-            this.kreirajBtn.Size = new System.Drawing.Size(151, 23);
-            this.kreirajBtn.TabIndex = 14;
-            this.kreirajBtn.Text = "Kreiraj";
-            this.kreirajBtn.UseVisualStyleBackColor = true;
+            this.popisRacunaOtpremnica.FormattingEnabled = true;
+            this.popisRacunaOtpremnica.Location = new System.Drawing.Point(24, 81);
+            this.popisRacunaOtpremnica.Name = "popisRacunaOtpremnica";
+            this.popisRacunaOtpremnica.Size = new System.Drawing.Size(682, 381);
+            this.popisRacunaOtpremnica.TabIndex = 17;
+            this.popisRacunaOtpremnica.SelectedIndexChanged += new System.EventHandler(this.đ_SelectedIndexChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(124, 40);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(215, 21);
+            this.comboBox1.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 30);
+            this.label1.Location = new System.Drawing.Point(60, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 15;
             this.label1.Text = "Dobavljac:";
             // 
-            // comboBox1
+            // kreirajPrimkuBtn
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(116, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 16;
-            // 
-            // đ
-            // 
-            this.đ.FormattingEnabled = true;
-            this.đ.Location = new System.Drawing.Point(19, 97);
-            this.đ.Name = "đ";
-            this.đ.Size = new System.Drawing.Size(682, 316);
-            this.đ.TabIndex = 17;
-            this.đ.SelectedIndexChanged += new System.EventHandler(this.đ_SelectedIndexChanged);
+            this.kreirajPrimkuBtn.Location = new System.Drawing.Point(293, 486);
+            this.kreirajPrimkuBtn.Name = "kreirajPrimkuBtn";
+            this.kreirajPrimkuBtn.Size = new System.Drawing.Size(151, 23);
+            this.kreirajPrimkuBtn.TabIndex = 14;
+            this.kreirajPrimkuBtn.Text = "Kreiraj primku";
+            this.kreirajPrimkuBtn.UseVisualStyleBackColor = true;
             // 
             // Skladistar_racun_otpremnica_popis
             // 
@@ -161,8 +161,8 @@
         private System.Windows.Forms.Button porukeBtn;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button kreirajBtn;
-        private System.Windows.Forms.ListBox đ;
+        private System.Windows.Forms.Button kreirajPrimkuBtn;
+        private System.Windows.Forms.ListBox popisRacunaOtpremnica;
         private System.Windows.Forms.ComboBox comboBox1;
     }
 }
