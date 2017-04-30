@@ -21,5 +21,15 @@ namespace PI_Projekt_SiM
         {
             MessageBox.Show("Uspješno pokrenuta aplikacija S&M");
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void helpBtn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"\README.pdf");
+        }
     }
 }

@@ -92,6 +92,30 @@
     <Compile Include="frmVlasnik_popis_narudzbenica.Designer.cs">
       <DependentUpon>frmVlasnik_popis_narudzbenica.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSkladistar_racun_otpremnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSkladistar_racun_otpremnica.Designer.cs">
+      <DependentUpon>frmSkladistar_racun_otpremnica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSkladistar_racun_otpremnica_popis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSkladistar_racun_otpremnica_popis.Designer.cs">
+      <DependentUpon>frmSkladistar_racun_otpremnica_popis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVlasnik_djelatnici_detaljno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVlasnik_djelatnici_detaljno.Designer.cs">
+      <DependentUpon>frmVlasnik_djelatnici_detaljno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVlasnik_djelatnici_popis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVlasnik_djelatnici_popis.Designer.cs">
+      <DependentUpon>frmVlasnik_djelatnici_popis.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmDjelatnici.resx">
       <DependentUpon>frmDjelatnici.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +146,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmVlasnik_popis_narudzbenica.resx">
       <DependentUpon>frmVlasnik_popis_narudzbenica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSkladistar_racun_otpremnica.resx">
+      <DependentUpon>frmSkladistar_racun_otpremnica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSkladistar_racun_otpremnica_popis.resx">
+      <DependentUpon>frmSkladistar_racun_otpremnica_popis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVlasnik_djelatnici_detaljno.resx">
+      <DependentUpon>frmVlasnik_djelatnici_detaljno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVlasnik_djelatnici_popis.resx">
+      <DependentUpon>frmVlasnik_djelatnici_popis.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
