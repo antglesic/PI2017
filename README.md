@@ -66,3 +66,36 @@ poruka. Uz to, korisnik još unosi Naslov poruke i ispod toga u Tijelo poruke un
 šalje odabranom korisniku. Ova funkcionalnost je prikazana na slici ispod, u obliku kakvog smo mi zamislili.
 
 ![Korisnik_Poruke](http://i64.tinypic.com/kloqg.png)
+
+
+
+#### Vlasnik: Djelatnici popis
+
+Vlasnik kao korisnik koji ima mogućnost pristupa svim dijelovima aplikacije će isto tako moći pristupiti i popisu svih djelatnika. Iz popisa vlasnik ima mogućnost odabrati jednog djelatnika te vidjeti detaljne informacije o tome djelatniku. Na formi djelatnici detaljno ćemo objasniti koje će sve to mogućnosti imati vlasnik pri detaljnom prikazu djelatnika.
+
+![Vlasnik djelatnici popis](http://oi67.tinypic.com/29m8tix.jpg)
+
+
+
+#### Vlasnik Djelatnici detaljno
+
+U prethodnoj formi je opisan pregled popisa svih djelatnika te smo rekli da ćemo kada odaberemo određenog djelatnika moći vidjeti nekakve detalje i raditi promjene na ovlastima te informacijama toga djelatnika. Iz dropboxa možemo odabrati poziciju na kojoj djelatnik radi (ako radi na više pozicija), kada je djelatnik prikazan imamo tri gubma, prvi gumb nam služi za izmjene informacija o određenom djelatniku, drugi gumb nam služi za izmjene ovlasti djelatnika te treći gumb služi za slanje direktne poruke odabranom djelatniku.
+
+![Vlasnik djelatnici detaljno](http://oi66.tinypic.com/24bkj6a.jpg)
+
+
+
+
+#### Skladištar: Računi/otpremnice popis
+
+Skladištar sa svoje pozicije ima obavezu kreiranja primke na osnovu određenih računa odnosno otpremnica. Kada skladištar otoru ovaj pogled on će moći vidjeti popis svih računa odnosno otpremnica te na osnovu odabira jednog od dokumenata će imati mogućnost kriranja primke što ćemo vidjeti na idućoj formi. Sama forma je jednostavna te se sastoji od jednog dropdown menija iz kojega filtiramo otpremnice/račune prema dobavljačima, ako ništa nije odabrano vidimo sve račune/otpremince prema datumu pristizanja.
+
+![Skladištar racuni/otpremince popis](http://oi66.tinypic.com/jadnv5.jpg)
+
+
+
+#### Skladištar: Računi/otpremnice detaljno
+
+U opisu prethodne forme smo rekli da na osnovu određenog računa kreiramo novu primku. U pregledu ove forme možemo vidjeti popis svih sirovina koje su pristigle prema računu te nam se otvaraju dvije mogućnosti, prva primanje tih sirovina na skladište te kreiranje primjke ili druga mogućnost "Greška" koja nam omogućava da dobavljaču prijavimo grešku na računu odnosno pristiglim sirovinama
+
+![Skladištar racuni/otpremince detaljno](http://oi67.tinypic.com/1zcipfm.jpg)
