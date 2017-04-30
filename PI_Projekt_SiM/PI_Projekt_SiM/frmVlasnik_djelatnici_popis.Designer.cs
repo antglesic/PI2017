@@ -1,6 +1,6 @@
 ﻿namespace PI_Projekt_SiM
 {
-    partial class Vlasnik_djelatnici_popis
+    partial class frmVlasnik_djelatnici_popis
     {
         /// <summary>
         /// Required designer variable.
@@ -39,11 +39,11 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.detaljnoBtn = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.detaljnoBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,7 @@
             this.djelatniciBtn.TabIndex = 14;
             this.djelatniciBtn.Text = "Poruke";
             this.djelatniciBtn.UseVisualStyleBackColor = true;
+            this.djelatniciBtn.Click += new System.EventHandler(this.djelatniciBtn_Click);
             // 
             // button1
             // 
@@ -65,6 +66,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Primke";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -74,6 +76,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Zahtjevnice";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -83,6 +86,7 @@
             this.button3.TabIndex = 17;
             this.button3.Text = "Racuni/otpremnice";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -92,6 +96,7 @@
             this.button4.TabIndex = 18;
             this.button4.Text = "Skladiste";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Naruci
             // 
@@ -101,6 +106,7 @@
             this.Naruci.TabIndex = 19;
             this.Naruci.Text = "Naruci";
             this.Naruci.UseVisualStyleBackColor = true;
+            this.Naruci.Click += new System.EventHandler(this.Naruci_Click);
             // 
             // button6
             // 
@@ -110,6 +116,7 @@
             this.button6.TabIndex = 20;
             this.button6.Text = "Djelatnici";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // groupBox1
             // 
@@ -152,6 +159,15 @@
             this.button5.Text = "Kreiraj";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // detaljnoBtn
+            // 
+            this.detaljnoBtn.Location = new System.Drawing.Point(251, 309);
+            this.detaljnoBtn.Name = "detaljnoBtn";
+            this.detaljnoBtn.Size = new System.Drawing.Size(151, 23);
+            this.detaljnoBtn.TabIndex = 14;
+            this.detaljnoBtn.Text = "Detaljno";
+            this.detaljnoBtn.UseVisualStyleBackColor = true;
+            // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
@@ -186,15 +202,6 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Pozicija:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // detaljnoBtn
-            // 
-            this.detaljnoBtn.Location = new System.Drawing.Point(251, 309);
-            this.detaljnoBtn.Name = "detaljnoBtn";
-            this.detaljnoBtn.Size = new System.Drawing.Size(151, 23);
-            this.detaljnoBtn.TabIndex = 14;
-            this.detaljnoBtn.Text = "Detaljno";
-            this.detaljnoBtn.UseVisualStyleBackColor = true;
             // 
             // Vlasnik_djelatnici_popis
             // 

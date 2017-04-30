@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PI_Projekt_SiM
 {
-    public partial class Vlasnik_djelatnici_detaljno : Form
+    public partial class frmVlasnik_djelatnici_detaljno : Form
     {
-        public Vlasnik_djelatnici_detaljno()
+        public frmVlasnik_djelatnici_detaljno()
         {
             InitializeComponent();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
